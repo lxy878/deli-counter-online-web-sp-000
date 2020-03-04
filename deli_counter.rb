@@ -7,7 +7,7 @@ def line(queue)
     puts "#{message} empty."
   else
     message << ":"
-    s1.length.times do |i|
+    queue.length.times do |i|
       message << " #{i+1}. #{s1[i]}"
     end
     puts message
