@@ -1,9 +1,9 @@
 # Write your code here.
 require 'pry'
 
-def line(s1)
+def line(queue)
   message = "The line is currently"
-  if s1.size == 0
+  if queue.size == 0
     puts "#{message} empty."
   else
     message << ":"
