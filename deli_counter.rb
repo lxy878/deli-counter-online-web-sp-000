@@ -1,7 +1,8 @@
 # Write your code here.
 def line(s1)
+  message = "The line is currently"
   if s1.size == 0
-    puts "The line is currently"
+    puts "#{message} empty."
   end
 end
 
