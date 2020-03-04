@@ -8,7 +8,7 @@ def line(s1)
   else
     message << ":"
     s1.length.times do |i|
-      message << " #{i}. #{s1[i]}"
+      message << " #{i+1}. #{s1[i]}"
     end
     puts message
     binding.pry
