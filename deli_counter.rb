@@ -8,16 +8,16 @@ def line(queue)
   else
     message << ":"
     queue.length.times do |i|
-      message << " #{i+1}. #{s1[i]}"
+      message << " #{i+1}. #{queue[i]}"
     end
     puts message
   end
 end
 
-def take_a_number(s1, s2)
-  s1 << s2
+def take_a_number(queue, s2)
+  queue << s2
 end
 
-def now_serving(s1)
+def now_serving(queue)
 
 end
