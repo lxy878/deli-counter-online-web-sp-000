@@ -15,12 +15,9 @@ def line(queue)
 end
 
 def take_a_number(queue, name)
+  puts "Welcom"
 
-
-
-
-
-  queue << s2
+  queue << name
 end
 
 def now_serving(queue)
