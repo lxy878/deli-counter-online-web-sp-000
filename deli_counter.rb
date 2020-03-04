@@ -11,6 +11,7 @@ def line(s1)
       message << " #{i}. #{s1[i]}"
     end
     puts message
+    binding.pry
   end
 end
 
