@@ -15,7 +15,7 @@ def line(s1)
 end
 
 def take_a_number(s1, s2)
-
+  s1 << s2
 end
 
 def now_serving(s1)
