@@ -11,7 +11,7 @@ def line(s1)
       message << " #{i}. #{s1[i]}"
     end
   end
-  return message
+  puts message
 end
 
 def take_a_number(s1, s2)
