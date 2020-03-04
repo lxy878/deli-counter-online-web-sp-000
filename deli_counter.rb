@@ -10,8 +10,8 @@ def line(s1)
     s1.length.times do |i|
       message << " #{i}. #{s1[i]}"
     end
+    puts message
   end
-  puts message
 end
 
 def take_a_number(s1, s2)
