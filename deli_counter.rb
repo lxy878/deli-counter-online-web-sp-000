@@ -1,7 +1,7 @@
 # Write your code here.
 def line(s1)
   if s1.size == 0
-
+    puts "The line is currently"
   end
 end
 
