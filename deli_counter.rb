@@ -1,6 +1,4 @@
 # Write your code here.
-require 'pry'
-
 def line(queue)
   message = "The line is currently"
   if queue.size == 0
