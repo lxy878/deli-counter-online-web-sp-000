@@ -15,7 +15,7 @@ def line(queue)
 end
 
 def take_a_number(queue, name)
-  puts "Welcom, #{name}. You are number #{queue.size+1} in line."
+  puts "Welcome, #{name}. You are number #{queue.size+1} in line."
   return queue << name
 end
 
