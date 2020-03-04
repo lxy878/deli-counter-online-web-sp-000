@@ -11,11 +11,8 @@ def line(s1)
       message << " #{i+1}. #{s1[i]}"
     end
     puts message
-    #binding.pry
   end
 end
-a = ["Logan", "Avi", "Spencer"]
-line(a)
 
 def take_a_number(s1, s2)
 
