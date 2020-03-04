@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+
 def line(s1)
   message = "The line is currently"
   if s1.size == 0
