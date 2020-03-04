@@ -1,1 +1,14 @@
 # Write your code here.
+def line(s1)
+  if s1.size == 0
+
+  end
+end
+
+def take_a_number(s1, s2)
+
+end
+
+def now_serving(s1)
+
+end
