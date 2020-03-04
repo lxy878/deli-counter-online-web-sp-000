@@ -15,6 +15,11 @@ def line(queue)
 end
 
 def take_a_number(queue, name)
+
+
+
+
+
   queue << s2
 end
 
