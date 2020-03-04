@@ -14,7 +14,8 @@ def line(s1)
     binding.pry
   end
 end
-
+a = 
+line
 def take_a_number(s1, s2)
 
 end
