@@ -16,6 +16,7 @@ def line(s1)
 end
 a = ["Logan", "Avi", "Spencer"]
 line(a)
+
 def take_a_number(s1, s2)
 
 end
