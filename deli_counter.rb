@@ -14,7 +14,7 @@ def line(queue)
   end
 end
 
-def take_a_number(queue, s2)
+def take_a_number(queue, name)
   queue << s2
 end
 
